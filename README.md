@@ -1,2 +1,0 @@
-# BluetoothInterfaceEmbeddedSys
-Embedded Systems Code 
