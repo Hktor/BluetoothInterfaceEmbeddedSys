@@ -1,0 +1,50 @@
+/**
+  ******************************************************************************
+  * @file     Service_UUID.h
+	* @autor		Hector Alvarez
+	* @version	V3.0
+	* @date			12.12.2016
+  * @brief    library file BT.c
+  ******************************************************************************
+*/
+
+/* Define to prevent recursive inclusion -------------------------------------*/
+#ifndef __SERVICE_UUID_H
+#define __SERVICE_UUID_H
+
+/* Includes ------------------------------------------------------------------*/	
+#include "string.h"
+#include "stdbool.h"
+																									
+/*----------------------------------------------------------------------------
+ * Define  BT Services
+ * v3.0 Modification 	12.12.2016	
+ *----------------------------------------------------------------------------*/
+ //MAC ADDRESS DEVICE: 	0006666e2cba
+ // 41 42 43 32 45 36 36 36 36 30 30 30 32 34 4e 52
+ //Name: 								HTR1987ALVAREZ01
+ // 31 30 5a 45 52 41 56 4c 41 37 38 39 31 52 54 48
+ 
+//#define CHARACTERISTIC_DEVICE_NAME_UUID  0x41, 0x42, 0x43, 0x32, 0x45, 0x36, 0x36, 0x36, 0x36, 0x30, 0x30, 0x30, 0x32, 0x34, 0x4e, 0x52
+//#define Conn_Service_UUID '0', '0', '0', '6', '6', '6', '6', 'e', '-', '2', 'c', 'b', 'a', '-', '1', '0', '0', '0', '-', '8', '0', '0', '0', '-', 'h', 't', 'o', 'r', '8', '7', 'b', 't','0', '1'
+//#define RdTm_Service_UUID	0x32, 0x30, 0x5a, 0x45, 0x52, 0x41, 0x56, 0x4c, 0x41, 0x37, 0x38, 0x39, 0x31, 0x52, 0x54, 0x48
+//#define RdPt_Service_UUID 0x33, 0x30, 0x5a, 0x45, 0x52, 0x41, 0x56, 0x4c, 0x41, 0x37, 0x38, 0x39, 0x31, 0x52, 0x54, 0x48
+//#define MvUp_Service_UUID 0x34, 0x30, 0x5a, 0x45, 0x52, 0x41, 0x56, 0x4c, 0x41, 0x37, 0x38, 0x39, 0x31, 0x52, 0x54, 0x48
+//#define MvDw_Service_UUID 0x35, 0x30, 0x5a, 0x45, 0x52, 0x41, 0x56, 0x4c, 0x41, 0x37, 0x38, 0x39, 0x31, 0x52, 0x54, 0x48
+//#define MvRg_Service_UUID 0x36, 0x30, 0x5a, 0x45, 0x52, 0x41, 0x56, 0x4c, 0x41, 0x37, 0x38, 0x39, 0x31, 0x52, 0x54, 0x48
+//#define MvLf_Service_UUID 0x37, 0x30, 0x5a, 0x45, 0x52, 0x41, 0x56, 0x4c, 0x41, 0x37, 0x38, 0x39, 0x31, 0x52, 0x54, 0x48
+
+enum Service_Type {
+	CONN,
+	RDTM,
+	RDPT,
+	MVUP,
+	MVDW,
+	MVRG,
+	MVLF
+};
+
+
+#endif /*__SERVICE_UUID_H */
+
+/********** (C) COPYRIGHT HECTOR ALVAREZ *****END OF FILE****/
